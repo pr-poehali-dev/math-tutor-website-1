@@ -86,7 +86,7 @@ const Index = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="img/61a7abfb-b253-4b55-a829-bd24299c5c3c.jpg" 
+                src="https://cdn.poehali.dev/files/bb1a42d7-09d1-4b78-97e3-ef9134486130.jpg" 
                 alt="Репетитор математики Анна Сергеевна"
                 className="w-80 h-80 object-cover rounded-2xl shadow-lg"
               />

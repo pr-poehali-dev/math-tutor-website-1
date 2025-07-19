@@ -89,7 +89,7 @@ const Index = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="img/8e80bd87-7bc0-4e9f-8d78-fe34d2c5ed4f.jpg" 
+                src="img/61a7abfb-b253-4b55-a829-bd24299c5c3c.jpg" 
                 alt="Репетитор математики Анна Сергеевна"
                 className="w-80 h-80 object-cover rounded-2xl shadow-lg"
               />

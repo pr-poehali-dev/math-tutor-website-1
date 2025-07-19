@@ -359,12 +359,12 @@ const Index = () => {
               
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Icon name="Phone" className="text-primary" size={24} />
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                    <Icon name="MessageCircle" className="text-blue-600" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Телефон</h3>
-                    <p className="text-gray-600">+7 (999) 123-45-67</p>
+                    <h3 className="font-semibold text-gray-900">Telegram</h3>
+                    <p className="text-gray-600">@zlatipova</p>
                   </div>
                 </div>
                 
@@ -379,12 +379,12 @@ const Index = () => {
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Icon name="MessageCircle" className="text-primary" size={24} />
+                  <div className="w-12 h-12 bg-blue-200 rounded-lg flex items-center justify-center">
+                    <Icon name="Users" className="text-blue-700" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">WhatsApp</h3>
-                    <p className="text-gray-600">+7 (999) 123-45-67</p>
+                    <h3 className="font-semibold text-gray-900">ВКонтакте</h3>
+                    <p className="text-gray-600">https://vk.com/zlatipova</p>
                   </div>
                 </div>
               </div>

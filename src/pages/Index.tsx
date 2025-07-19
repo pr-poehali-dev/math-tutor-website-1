@@ -77,7 +77,7 @@ const Index = () => {
                   Использую современные методики обучения и всегда нахожу индивидуальный подход.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-6">
-                  <Badge className="bg-primary text-white">8+ лет опыта</Badge>
+                  <Badge className="bg-primary text-white">2+ лет опыта</Badge>
                   <Badge className="bg-secondary text-gray-900">150+ учеников</Badge>
                   <Badge className="bg-primary text-white">Высшее образование</Badge>
                   <Badge className="bg-secondary text-gray-900">Современные методики</Badge>

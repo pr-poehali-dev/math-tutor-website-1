@@ -103,7 +103,29 @@ const Index = () => {
             <p className="text-xl text-gray-600">Специализируюсь на математике для учеников 5-9 классов</p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Card className="border-2 hover:border-primary transition-colors group">
+              <CardHeader>
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                    <Icon name="Book" className="text-green-600" size={24} />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl">Математика</CardTitle>
+                    <CardDescription>5-6 классы</CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Дроби и проценты</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Пропорции</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Координаты</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Целые числа</li>
+                </ul>
+              </CardContent>
+            </Card>
+
             <Card className="border-2 hover:border-primary transition-colors group">
               <CardHeader>
                 <div className="flex items-center space-x-3">
@@ -111,18 +133,17 @@ const Index = () => {
                     <Icon name="Calculator" className="text-primary" size={24} />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl">Алгебра</CardTitle>
-                    <CardDescription>5-9 классы</CardDescription>
+                    <CardTitle className="text-xl">Алгебра</CardTitle>
+                    <CardDescription>7-9 классы</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Уравнения и неравенства</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Функции и графики</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Системы уравнений</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Степени и корни</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Арифметическая прогрессия</li>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Уравнения</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Функции</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Степени</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Прогрессии</li>
                 </ul>
               </CardContent>
             </Card>
@@ -134,18 +155,39 @@ const Index = () => {
                     <Icon name="Triangle" className="text-secondary" size={24} />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl">Геометрия</CardTitle>
+                    <CardTitle className="text-xl">Геометрия</CardTitle>
                     <CardDescription>7-9 классы</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Планиметрия</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Треугольники и четырехугольники</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Окружности и углы</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Площади фигур</li>
-                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={16} /> Теорема Пифагора</li>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Планиметрия</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Треугольники</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Окружности</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Площади</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary transition-colors group">
+              <CardHeader>
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                    <Icon name="BarChart3" className="text-purple-600" size={24} />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl">Вероятность</CardTitle>
+                    <CardDescription>7-9 классы</CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Статистика</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Диаграммы</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Вероятность</li>
+                  <li className="flex items-center"><Icon name="Check" className="text-green-500 mr-2" size={14} /> Комбинаторика</li>
                 </ul>
               </CardContent>
             </Card>
